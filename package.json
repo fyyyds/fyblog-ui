@@ -7,7 +7,13 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@kangc/v-md-editor": "^2.3.15",
+    "axios": "^0.27.2",
     "core-js": "^3.8.3",
+    "element-plus": "^2.2.2",
+    "github-markdown-css": "^5.1.0",
+    "install": "^0.13.0",
+    "markdown-it": "^13.0.1",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
     "vuex": "^4.0.0"
@@ -16,7 +22,9 @@
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-router": "~5.0.0",
     "@vue/cli-plugin-vuex": "~5.0.0",
-    "@vue/cli-service": "~5.0.0"
+    "@vue/cli-service": "~5.0.0",
+    "unplugin-auto-import": "^0.8.2",
+    "unplugin-vue-components": "^0.19.5"
   },
   "browserslist": [
     "> 1%",
